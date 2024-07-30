@@ -1,0 +1,41 @@
+/* Navbar.css */
+
+.nav {
+  background-color: #f8f9fa;
+    padding: 20px 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 18px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
